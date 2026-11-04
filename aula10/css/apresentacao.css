@@ -1,0 +1,24 @@
+#nome { 
+    background-color: aqua;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+#titulo { 
+    letter-spacing: 1cap;
+
+}
+
+.Sobre { 
+    color:brown;
+    line-height: 100%;
+
+}
+
+.interesse {
+
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+
+}

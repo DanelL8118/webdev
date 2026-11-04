@@ -1,0 +1,19 @@
+body {
+    background-color:darkblue;
+    color: azure;
+    margin: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    background-color:brown;
+}
+
+.cabeca {
+    background-color:blueviolet;
+}
+
+.pe { 
+    background-color: blueviolet;
+}
