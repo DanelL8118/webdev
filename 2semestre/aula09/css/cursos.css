@@ -1,0 +1,51 @@
+body {
+
+    background-color:cadetblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#titulo {
+
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+
+.cursos {
+
+    color:antiquewhite;
+}
+
+.areas {
+
+    color:antiquewhite;
+    border: 1px antiquewhite solid;
+}
+
+#etapas {
+
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.site {
+
+    color: antiquewhite;
+    margin: 10cap 85cap;
+    text-align: center;
+}
+
+#imagem {
+
+    margin: 0 60cap;
+}
+
+footer {
+
+    background-color: antiquewhite;
+}
+
+#links {
+
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+header {
+    background-color:darkblue;
+
+}
+
+#nome {
+    text-align: center;
+}
+
+#linha{
+    background-color:azure;
+    color: azure;
+}
+
+.Sobre {
+    border: 1px white solid;
+    padding: 2cap;
+}
+
+.interesse {
+
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    background-color:darkblue;
+}

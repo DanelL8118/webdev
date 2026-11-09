@@ -1,0 +1,33 @@
+body {
+    
+    background-color:antiquewhite;
+    color:black;
+    margin: 25cap 65cap;
+}
+
+table {
+
+border-collapse: collapse;
+background-color:white;
+}
+
+caption {
+
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+th, td {
+
+    padding: 10px;
+    text-align: left;
+}
+
+#cabecalho {
+
+    background-color:darkseagreen;
+}
+
+tfoot {
+    background-color: darkseagreen;
+}

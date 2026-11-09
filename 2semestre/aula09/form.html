@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Formulário - minicurso</title>
+
+</head>
+
+<body>
+    <h1>Inscrição - Minicurso</h1>
+    <h2>Informações Pessoais</h2>
+    <form action="form.html" method="post">
+        <div class="basico">
+            <label for="nome">*Digite seu nome: </label>
+            <input type="text" id="nome">
+        </div>
+        <br>
+        <div class="basico">
+            <label for="email">*Digite seu email: </label>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <div class="basico">
+            <label for="idade">*Digite sua idade (entre 15 e 100 anos): </label>
+            <input type="number" id="idade">
+        </div>
+        <br>
+        <br>
+    <h2>Informações do curso</h2>
+        <div class="curso">
+            <label for="curso">Escolha seu curso de interesse:</label>
+            <select name="curso" id="curso">
+                <option value="moda">Engenharia de Software</option>
+                <option value="si">Sistemas de Informação</option>
+                <option value="cinema">Engenharia da Computação</option>
+                <option value="historia">Ciência de Dados</option>
+            </select>
+        </div>
+        <br>
+        <div class="curso">
+            <p>Áreas de interesse:</p>
+            <input type="checkbox" id="curso1" name="curso">
+            <label for="curso1">Programação</label>
+            <input type="checkbox" id="curso2" name="curso">
+            <label for="curso2">Cybersegurança</label>
+            <input type="checkbox" id="curso3" name="curso">
+            <label for="curso3">Banco de dados</label>
+            <input type="checkbox" id="curso4" name="curso">
+            <label for="curso4">inteligência artificial</label>
+        </div>
+        <br>
+        <div class="curso">
+            <p>Modalidade do curso:</p>
+            <input type="radio" id="modalidade" name="modal">
+            <label for="modalidade">Presencial</label>
+            <input type="radio" id="modalidade1" name="modal">
+            <label for="modalidade1">Online</label>
+        </div>
+        <br>
+        <div class="observada">
+            <label for="obs">Observações:</label>
+            <textarea name="Observações" id="obs"></textarea>
+        </div>
+        <br>
+        <br>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
