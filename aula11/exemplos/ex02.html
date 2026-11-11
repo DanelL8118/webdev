@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Evento de clique</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+</head>
+
+<body>
+    <button id="botao">Clique aqui</button>
+    <p id="mensagem"></p>
+    <script>
+        const botao = document.querySelector("#botao");
+        const mensagem = document.querySelector("#mensagem");
+        function saudar() {
+            mensagem.textContent = "Olá! Você clicou!";
+        }
+        botao.addEventListener("click"
+
+            , saudar);
+
+    </script>
+</body>
+
+</html>
