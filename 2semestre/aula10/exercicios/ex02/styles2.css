@@ -1,0 +1,35 @@
+#azul {
+
+    background-color: dodgerblue;
+}
+
+#verde {
+
+    background-color:green;
+}
+
+#vermelho {
+
+    background-color: firebrick;
+}
+
+#resultado {
+
+    width: 243px;
+    height: 200px;
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    background-color:white;
+
+}
+
+.button {
+    
+    color: white;
+}
+
+body {
+
+    background-color:darkgrey;
+    margin: 25cap 75cap;
+}
